@@ -61,6 +61,12 @@ export default {
     return {
       token: localStorage.getItem('access_token')
     }
+  },
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Alumni',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Infokuliah.id'
   }
 }
 </script>

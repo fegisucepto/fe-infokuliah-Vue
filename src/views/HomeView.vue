@@ -79,6 +79,12 @@ import Classes from '@/components/Classes.vue'
 
 export default {
   name: 'HomeView',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Kursus Persiapan Masuk PTN',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Infokuliah.id'
+  },
   components: {
     NavbarPage,
     FooterPage,

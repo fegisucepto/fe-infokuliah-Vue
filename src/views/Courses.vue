@@ -67,6 +67,12 @@ import Navbar from '../components/Navbar.vue'
 
 export default {
   name: 'CousesPage',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Daftar Kursus',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Infokuliah.id'
+  },
   components: {
     FooterPage,
     Couses,

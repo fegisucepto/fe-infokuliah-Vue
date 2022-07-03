@@ -8,6 +8,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'App',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: 'Kursus Persiapan Masuk PTN',
+    // all titles will be injected into this template
+    titleTemplate: '%s | Infokuliah.id'
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
